@@ -3,9 +3,12 @@ public class HelloWorld {
     int x, y ;
     x = 10 ;
     y = 20 ;
+    int sum ;
     if ( y != 0 ) {
-      int sum = x / y ; 
-      System.out.println("Result: " + sum);
+      sum = x / y ; 
+    } else {
+      sum = -1 ;
     }
+    System.out.println("Result: " + sum);
   }
 }
