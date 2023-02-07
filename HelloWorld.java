@@ -4,5 +4,6 @@ public class HelloWorld {
     x = 10 ;
     y = 20 ;
     int sum = x / y ; 
+    System.out.println("Result: " + sum);
   }
 }
