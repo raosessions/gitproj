@@ -3,6 +3,7 @@ public class HelloWorld {
     int x, y ;
     x = 10 ;
     y = 20 ;
-    int sum = x / y ; 
+    if ( y != 0 )
+      int sum = x / y ; 
   }
 }
