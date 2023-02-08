@@ -1,4 +1,4 @@
-public class Current{
+public class String_Project{
     public static void main(String[] args){
         String s = "This is a java class";
         System.out.println(s.length());
