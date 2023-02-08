@@ -6,7 +6,7 @@ public class HelloWorld {
       System.out.println("The length of the string is: " + s1.length());
     }
     int x, y ;
-    x = 10 ;
+    x = 30 ;
     y = 20 ;
     int result ;
     if ( y != 0 ) {
