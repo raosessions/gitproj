@@ -1,5 +1,16 @@
 public class HelloWorld {
   public static void main(String[] args) {
+
+    {
+
+      UpperCase w= new UpperCase();
+      
+       String word = "this is java class";
+
+       System.out.println("the word is in upper case :" + w.upperCase(word) );
+    }
+
+   
     int x, y ;
     x = 10 ;
     y = 20 ;
