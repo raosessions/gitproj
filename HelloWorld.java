@@ -1,5 +1,10 @@
 public class HelloWorld {
   public static void main(String[] args) {
+
+    {
+      Length s1 = new Length();
+      System.out.println("The length of the string is: " + s1.length());
+    }
     int x, y ;
     x = 10 ;
     y = 20 ;
@@ -11,4 +16,6 @@ public class HelloWorld {
     }
     System.out.println("Result: " + result);
   }
+
+
 }
